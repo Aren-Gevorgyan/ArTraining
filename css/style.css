@@ -1,0 +1,39 @@
+
+*{
+padding:0;
+margin:0;
+}
+video {
+  position: absolute;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+a {
+  position: fixed;
+  text-decoration:none;
+  border-radius:10px;     
+  font-size: 18px;
+  padding: 10px;  
+  background: #808080;
+  color: #fff;
+}
+
+a:hover {
+  background: #fff;
+  color: black;
+}
+
+#content {
+   position: fixed;
+   color: #f1f1f1;
+   width: 100%;
+   padding: 20px;
+}
+
+p {
+	position: absolute;
+	margin-left:5%;
+	margin-top:0.5%;
+}
+

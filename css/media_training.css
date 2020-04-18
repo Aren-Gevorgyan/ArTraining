@@ -1,0 +1,140 @@
+@media screen and (max-width: 2250px){
+   .content_headner_exercie {
+   	  height: 1100px;
+   }
+
+@media screen and (max-width: 2100px){
+    nav > ul > li > a {
+      font-size: 16px;
+    }
+
+@media screen and (max-width: 2000px){
+    
+    .content_headner_exercie {
+   	  height: 920px;
+    }
+    nav > ul > li > a {
+      font-size: 16px;
+    }
+    .footer_logo > p {
+      font-size: 22px; 
+    }
+    figure > p {
+      font-size: 16px;
+    }
+}
+@media screen and (max-width: 1850px){
+	  .logo > img {
+      height: 45px;
+    }
+    .logo > p{
+      font-size: 16px;	
+    }
+	  nav > ul > li > a {
+      font-size: 15px;
+    }
+    .description h1 {
+      font-size: 70px;
+    }
+    .description p {
+      font-size: 25px;
+      top: 12%;
+    }
+}
+
+@media screen and (max-width: 1750px){
+    .content_headner_exercie {
+   	  height: 880px;
+    }
+	  nav > ul > li > a {
+      font-size: 14px;
+    }  
+
+@media screen and (max-width: 1250px){
+
+	  .logo > img {
+      width: 22%;
+      height: 40px;
+    }
+    .logo > p{
+      font-size: 16px;
+    }
+    .description h1 {
+      font-size: 56px;
+    }
+    .description p {
+      font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 1000px){
+  	.content_headner_exercie {
+       height: 810px;
+    }
+    .content {
+      border-left: 2px solid yellow;
+      border-right: 2px solid yellow;
+    }
+	  .logo > img {
+      height: 34px;
+    }
+    .logo > p {
+      font-size: 15px;
+    }
+    nav > ul > li > a {
+      font-size: 13px;
+    }
+    .description h1 {
+      font-size: 48px;
+    }
+    .description p {
+      margin-top: 10px;	
+      font-size: 18px;
+}
+
+@media screen and (max-width: 900px){
+    
+    .content_headner_exercie {
+       height: 650px;
+    } 
+
+@media screen and (max-width: 750px){
+	  .content_headner_exercie {
+      height: 610px;
+    }
+    .logo{
+      overflow: initial;
+    }
+    .logo > p {
+      font-size: 10px;
+    }
+    nav{
+      width: 20%;
+      display: none;
+    }
+    .headner > i{
+      display: block;
+      position: relative;
+      font-size: 20px;
+      margin-right: 20px;
+      color: #fff;
+    }
+    .headner > i:hover + nav{
+     display: block;
+     position: absolute;
+     top: 85%;
+     left: 75%;
+     background-color: black;
+    }
+    nav > ul{
+      margin-bottom: 0px;
+      width: 100%;
+      display: block;
+    }
+    nav > ul > li{
+      width: 100%;
+      border: 1px groove #fff;
+    }
+    .sign::after{
+      left: 80%; 
+    }

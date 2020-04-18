@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset = "UTF-8">
+<title>Fitness Training</title>
+ <link rel = "stylesheet" href = "css/index.css">
+ <link rel = "shortcut icon" href = "image/icon.png" type = "image/png">
+</head>
+
+<body>
+
+<fieldset>
+<legend>Registartion</legend>
+<div class = "conteiner" >
+
+  <h1><span>F</span>ill in your details to sign up for our training</h1>
+
+  <form action = "" method = "post">
+  <a href = "motivation.html" id = "motivation"></a>
+  <div class = "name">
+    <p><label for = "name";>Name:</label>
+    <p><label for = "Lname";>Last Name:</label>
+    <p><label for = "age";>Age:</label>
+    <p><label for = "address";>Address:</label>
+    <p><label for = "email">Email:</label>
+    <p><label for = "p_number";>Phone Number:</label>
+    <p>Gender:</p>
+    <p>Netional:</p>
+    <p>Your language skills:
+    <p><label for = "login" >Login:</label>
+    <p><label for = "password">Password:</label>
+    <p><label for = "confirmpassword">Confirm Password:</label>
+  </div>
+
+ <div class = "input">
+
+  <p><input id = "name"; type = "text"; placeholder = "Name*"; pattern = "[a-zA-Z]{1,8}"; title = "Up to 8 letters"; autocomplete = "on"; required></p>
+
+  <p><input  id = "Lname"; type = "text"; placeholder = "Last Name*";  pattern = "[a-zA-Z]{1,10}"; title = "Up to 10 letters"; autocomplete = "on"; required></p>
+
+  <p><input id = "age"; type = "date"; placeholder = "Age*"; required></p>
+
+  <p><input id = "address"; type = "text"; placeholder = "Address*"; autocomplete = "on"; pattern = "{1,20}"; title = "Up to 20 caracter" require></p>
+
+  <p><input id = "email"; type = "text"; placeholder = "Email*"; autocomplete = "on"; title = "Up to 31 caracter" required></p>
+  <p id = "error_email"></p>
+
+  <p><input id = "p_number"; type = "number"; placeholder = "Phone Number*"; autocomplete = "on"; pattern = "\+\d{5}\s\d{2}\s\d{2}\s\d{2}" title = "+****** ** *** ***"; required></p>
+  
+  <p><label for = "male"; title = "Cilck Text">Male:</label><input class = "male display"; id = "male"; type = "radio"; name = "gender";>
+  	<spna class = "radio"></spna>
+
+  <label for = "famale"; title = "Click Text">Famale:</label><input class = "famale display";  id = "famale"; type = "radio"; name = "gender";>
+  <span class = "radio"></span>
+		  
+   <p><select class = "netional">
+    <option>Armenia</option>
+    <option>Russia</option>
+    <option>America</option>
+    </select></p>
+
+   <label for = "arm"; title = "Click Text">Arm</label><input class = "arm display"; id = "arm"; type = "checkbox"; name = "Arm"; value = "Arm" required>
+    <span class = "fake"></span>	
+
+  <label for = "rus"; title = "Click Text">Rus</label><input class = "rus display"; id = "rus"; type = "checkbox"; name = "rus"; value = "Rus";>
+  <span class = "fake"></span>
+
+  <label for = "amn"; title = "Click Text">Amn</label><input class = "amn display"; id = "amn"; type = "checkbox"; name = "Amn"; value = "Amn";>
+  <span class = "fake"></span>
+
+  <p><input id = "login"; type = "text"; placeholder = "Login*";  pattern = "{1,12}"; title = "Up to 12 caracter"; autocomplete = "on"; required></p>
+
+  <p><input id = "password"; type = "password";  placeholder = "Password*"; pattern = "{1,15}"; title = "Up to 15 caracter"; required></p>
+
+  <p><input id = "confirmpassword"; type = "password"; placeholder = "Password*"; pattern = "{1,15}"; title = "Up to 15 caracter"; required></p>
+ </div>
+
+  <footer>
+  	<div class = "registr">
+  	    <div class = "position_button">
+           <p><input  id = "registr" type = "submit"; value = "Registr";></p>
+           <p><input  type = "reset"; value = "Cencel";></p>
+        </div>
+    </div>
+  </footer>
+</div>
+<script src = "js/js.js"></script>
+</body>
+</html>
